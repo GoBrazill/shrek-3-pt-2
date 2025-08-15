@@ -2,8 +2,8 @@ package atividade_2_Encapsulamento;
 
 public class Livro {
 	
-	public String titulo, autor;
-	public int numPaginas;
+	private String titulo, autor;
+	private int numPaginas;
 	
 	public String getTitulo() {
 		return titulo;

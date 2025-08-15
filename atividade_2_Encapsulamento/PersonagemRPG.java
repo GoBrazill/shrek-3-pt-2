@@ -2,8 +2,8 @@ package atividade_2_Encapsulamento;
 
 public class PersonagemRPG {
 	
-	public String nome, classe;
-	public int nivel, vida;
+	private String nome, classe;
+	private int nivel, vida;
 	
 	public void setNome(String nome) {
 		this.nome = nome;
@@ -24,6 +24,23 @@ public class PersonagemRPG {
 		this.nivel = nivel;	
 	}
 	
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public String getClasse() {
+		return classe;
+	}
+
+	public int getNivel() {
+		return nivel;
+	}
+
+	public int getVida() {
+		return vida;
+	}
+
 	public void setVida(int vida) {
 		this.vida = vida;
 		
@@ -35,6 +52,7 @@ public class PersonagemRPG {
 			this.vida = 0;
 			return;
 		}
+		
 	}
 	
 }
