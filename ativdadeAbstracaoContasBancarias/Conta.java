@@ -15,6 +15,12 @@ public abstract class Conta {
 		this.saldo = saldo;
 		this.titular = titular;
 	}
+
+
+	@Override
+	public String toString() {
+		return "\nAgência: " + agencia + ",\nNumero da conta: " + numero + ",\nSaldo: " + saldo + ",\nTitular: " + titular;
+	}
 	
 	
 	public int getNumero() {
