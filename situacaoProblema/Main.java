@@ -1,5 +1,6 @@
 package situacaoProblema;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Main {
@@ -22,6 +23,7 @@ public class Main {
 		book3.devolver();
 		book3.emprestar(user1);
 		book3.emprestar(user2);
+		
 //			System.out.println("Bem vindo a biblioteca! \n Vamos criar a sua conta, você é: \n 1.Aluno \n 2.Professor");
 //			opcaoCriar = scn.nextInt();
 //			
