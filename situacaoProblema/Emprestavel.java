@@ -2,7 +2,7 @@ package situacaoProblema;
 
 public interface Emprestavel {
 	
-	public void emprestar(Usuario u);
+	public boolean emprestar(Usuario u);
 	
-	public void devolver();
+	public boolean devolver();
 }

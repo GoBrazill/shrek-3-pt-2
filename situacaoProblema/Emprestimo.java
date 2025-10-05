@@ -28,11 +28,11 @@ public class Emprestimo {
 		this.codigo = codigo;
 	}
 
-	public void dataDevolucao() {
+	public void dataDevolucao(Livro l) {
 		LocalDate diaEmprestimo = LocalDate.now();
 		LocalDate diaDevolucao = diaEmprestimo.plusDays(7);
 		System.out.println(
-				"Livro emprestado na data: " + diaEmprestimo + "\nData prevista de devolução: " + diaDevolucao);
+				l.getTitulo() + " emprestado na data: " + diaEmprestimo + "\nData prevista de devolução: " + diaDevolucao);
 	}
 
 }

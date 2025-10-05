@@ -3,12 +3,12 @@ package situacaoProblema;
 public class Livro implements Emprestavel {
 	// vou deixar o status como boolean sendo true que o livro está disponível e
 	// false emprestado
-	private int codigo;
+	private String codigo;
 	private String titulo;
 	private String autor;
 	private boolean status;
 
-	public Livro(int codigo, String titulo, String autor, boolean status) {
+	public Livro(String codigo, String titulo, String autor, boolean status) {
 		super();
 		this.codigo = codigo;
 		this.titulo = titulo;
@@ -16,11 +16,11 @@ public class Livro implements Emprestavel {
 		this.status = status;
 	}
 
-	public int getCodigo() {
+	public String getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(int codigo) {
+	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
 
@@ -48,8 +48,8 @@ public class Livro implements Emprestavel {
 		this.status = status;
 	}
 
+	// acho que essa logica vai estar na classe do usuario
 	public void emprestar(boolean status) {
-		// acho que essa logica vai estar na classe do usuario
 		status = this.status;
 		if (status == true) {
 			System.out.println("Você pegou este livro emprestado");
@@ -72,7 +72,7 @@ public class Livro implements Emprestavel {
 	// De cara não faço idéia o que vou fazer aqui já que defini os metodos de
 	// emprestar e devolver diretamente na classe do livro
 	@Override
-	public void emprestar(Usuario u) {
+	public boolean emprestar(Usuario u) {
 		int limite = u.getLimiteEmprestimos();
 		if (limite == 0) {
 			System.out.println(u.getNome()
@@ -81,11 +81,13 @@ public class Livro implements Emprestavel {
 			System.out.println("Livro emprestado");
 			limite -= 1;
 		}
+		return status;
 	}
 	
 	// não faço idéia do que fazer aqui
 	@Override
-	public void devolver() {
+	public boolean devolver() {
+		return status;
 	}
 
 }
