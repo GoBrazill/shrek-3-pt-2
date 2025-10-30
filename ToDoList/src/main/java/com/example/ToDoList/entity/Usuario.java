@@ -10,12 +10,23 @@ import jakarta.persistence.Table;
 @Table(name = "tb_usuario")
 public class Usuario {
 	
+	public Usuario () {
+		
+	}
+	public Usuario(long id, String nome, String email, String senha) {
+		this.id = id;
+		this.nome = nome;
+		this.email = email;
+		this.senha = senha;
+	}
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	private String nome;
 	private String email;
 	private String senha;
+	
 	public String getNome() {
 		return nome;
 	}

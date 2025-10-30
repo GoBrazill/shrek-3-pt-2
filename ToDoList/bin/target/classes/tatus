@@ -1,0 +1,162 @@
+[33mcommit b4c1e4f410a4a0aa38d576cce91a74f7beb1e20e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Wed Sep 17 11:20:08 2025 -0300
+
+    Feat: add exercise about use of jpa in springboot
+
+[33mcommit ea703c9b3bd9c7472aa4b1f82869e11c023e5fd5[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Fri Sep 5 21:04:38 2025 -0300
+
+    Docs: add documentation explaining the exercise
+
+[33mcommit fc9d99a4762c16e863a262856a663072eb480bcb[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Fri Sep 5 20:53:43 2025 -0300
+
+    feat: finished exercise about abstraction
+
+[33mcommit baa79cdbcba200584307fe54914d30929a811b3b[m
+Merge: 42c9157 684083a
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Wed Sep 3 11:21:26 2025 -0300
+
+    Merge branch 'main' of https://github.com/GoBrazill/shrek-3-pt-2
+
+[33mcommit 42c9157936869ad068c19018d797f2f817dce466[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Wed Sep 3 11:19:01 2025 -0300
+
+    feat: add exercises about abstraction
+
+[33mcommit 684083a30eb7a9ffb984f041653dc906ac90c3d8[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Sat Aug 30 23:26:00 2025 -0300
+
+    feat: add challenge involving array lists
+
+[33mcommit da7680ddf161df7cd4dd864139d293b052eb5352[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Tue Aug 26 23:44:02 2025 -0300
+
+    feat: add exercise about override method
+
+[33mcommit f4fa23a3e5d0c8a66455c6b51d127da4d8ce3c04[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Wed Aug 20 11:07:57 2025 -0300
+
+    Delete exercicioVeiculos
+
+[33mcommit a49e07083447aff72cb784578074812c0c264945[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Wed Aug 20 11:07:39 2025 -0300
+
+    fix: corrected the name of the folder
+
+[33mcommit 5ec33536f9eed25393a0c1586d7d7be24969b37e[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Wed Aug 20 11:04:00 2025 -0300
+
+    feat: added examples made by teacher
+
+[33mcommit dd6b01c85f10639d98ce7199dbc421b6ec7beaa2[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Wed Aug 20 11:02:12 2025 -0300
+
+    feat added vehicle exercise
+
+[33mcommit d09ceaeb424c98002b06810e34ff8018f9a5a305[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Fri Aug 15 10:31:27 2025 -0300
+
+    fix: turned all variables to private
+
+[33mcommit a6e6f8c600422a118f76f43a285a133238528059[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 14 11:10:03 2025 -0300
+
+    feat: added heritage exercise
+
+[33mcommit 0b2b2ad177e5299299f6a8d88e9673c02129e337[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Fri Aug 8 23:23:12 2025 -0300
+
+    Create README.md
+
+[33mcommit db47f029f4de965d653ca80501f7982ae8eed5f3[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Fri Aug 8 23:19:23 2025 -0300
+
+    feat: added 2 finished exercises
+
+[33mcommit d3f9f4a97cee5c51fe08e2617b7100ed3e8f4b40[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 10:50:01 2025 -0300
+
+    Docs: added README.md
+
+[33mcommit 795871f9d5ac9ec42b3aa8e0e136dcca0eeb663e[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 10:32:14 2025 -0300
+
+    Delete atv06_08 directory
+
+[33mcommit c91d2b4187a206223d5d15a315a57f093ad08ef1[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 10:31:23 2025 -0300
+
+    feat: added finished exercises
+
+[33mcommit b6b25ca702eb0442cb35558fd2779b6d7d8c3a71[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 08:21:59 2025 -0300
+
+    deleted directory named ex01
+
+[33mcommit 462fa9e2e2588d225943c7ea9b300aa95404bbf4[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 08:10:36 2025 -0300
+
+    Create s
+
+[33mcommit e68117d7c45de3196941d93f4c3cc16126765292[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 08:09:52 2025 -0300
+
+    Delete atv06_08/Ex01/a
+
+[33mcommit 17c2af3279046f27ef9b63b9a4c5d7a89b0fbc31[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 08:09:42 2025 -0300
+
+    Create a
+
+[33mcommit 7e3a3d94ea2f8ed97e2e4ceeba5be617e5e12ae5[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 08:08:48 2025 -0300
+
+    Delete atv06_08/Ex01
+
+[33mcommit 884e934f0640325e01a6f4d2d7e13c9b608c7fba[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Thu Aug 7 08:08:34 2025 -0300
+
+    Create Ex01
+
+[33mcommit 7a39b376b48d6144a882d67e961acab4d3b99f0d[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Wed Aug 6 11:14:16 2025 -0300
+
+    feat: add two unfinished exercises
+
+[33mcommit f7ee6f99b91f0848a9caebdbbebcd0b6c832bd25[m
+Author: Vinicius Silva <vinicius.daraujos26@gmail.com>
+Date:   Mon Jun 23 13:28:15 2025 -0300
+
+    Delete exercicios10_02 directory
+
+[33mcommit 35409113f396f928136f6b8d8926d2848321b7b2[m
+Author: GoBrazill <vinicius.daraujos26@gmail.com>
+Date:   Tue Jun 17 23:45:13 2025 -0300
+
+    commit of the first exercise corrected
